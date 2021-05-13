@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Zoho App Page Object Model Suite">
+
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name="com.apps.listners.CustomListners"/>
+  </listeners>
+
+  <test  name=" Login Test">
+    <classes>
+  
+      <class name="com.apps.testcases.LoginTest"/>
+    </classes>
+  </test> 
+  
+ 
+  
+  
+  <!-- Test -->
+</suite> <!-- Suite -->
