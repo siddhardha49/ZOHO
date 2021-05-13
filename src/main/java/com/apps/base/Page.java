@@ -120,7 +120,7 @@ public class Page {
 				
 
 				log.info("chrome browser launched");
-
+				log.info("config file keys are ready to be used");
 		
 			Map<String, Object> prefs = new HashMap<String, Object>();
 			
