@@ -99,6 +99,7 @@ public class Page {
 				or.load(fis);
 
 				log.info("loaded the or properties file");
+				log.info("or file keys are ready to be used");
 
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
